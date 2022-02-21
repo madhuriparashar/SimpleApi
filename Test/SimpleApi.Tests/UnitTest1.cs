@@ -13,7 +13,7 @@ namespace SimpleApi.Tests
         public void Test1()
         {
       var result =   valuesController.Get(1);
-        Assert.Equal("Unit Test Message",result);
+        Assert.Equal("Unit Test Message  - faile",result);
 
         }
     }
